@@ -8,7 +8,7 @@ Part of the [reduxr](https://github.com/chrisdavies/reduxr) family of packages.
 
 ## Usage
 
-Say we have a reducer that looks like this:
+Sometimes we have a reducer which is concerned only with a very specific subset of actions, generally scoped using some type prefix. Here's an example:
 
 ```js
 import objReducer from 'reduxr-scoped-reducer';
@@ -20,8 +20,7 @@ export default objReducer({}, {
 
 ```
 
-It responds to `user_` actions. Instead of having to type `user_` over and
-over, we can instead scope the reducer as shown below:
+This reducer only responds to `user_` actions. Instead of having to type `user_` over and over, we can instead scope the reducer as shown below:
 
 ```js
 // user-reducer.js
