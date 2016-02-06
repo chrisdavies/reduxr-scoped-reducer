@@ -1,0 +1,9 @@
+test
+example
+.gitignore
+node_modules
+bower_components
+README.md
+bower.json
+.travis.yml
+typings

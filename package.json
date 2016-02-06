@@ -1,0 +1,34 @@
+{
+  "name": "reduxr-scoped-reducer",
+  "version": "0.0.1",
+  "description": "Creates a Redux reducer scoped only to prefixed actions",
+  "main": "scoped-reducer.js",
+  "directories": {},
+  "scripts": {
+    "test": "jasmine test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdavies/reduxr-scoped-reducer"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "flux",
+    "ajax"
+  ],
+  "author": "Chris Davies <ferociousturtle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdavies/reduxr-scoped-reducer/issues"
+  },
+  "homepage": "https://github.com/chrisdavies/reduxr-scoped-reducer",
+  "devDependencies": {
+    "deep-freeze": "0.0.1",
+    "faker": "^3.0.1",
+    "jasmine-es6": "0.0.9"
+  },
+  "dependencies": {
+    "reduxr-mix": "0.0.11"
+  }
+}

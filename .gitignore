@@ -1,0 +1,4 @@
+Web.config
+*.log
+node_modules
+typings
