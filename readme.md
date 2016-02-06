@@ -2,6 +2,8 @@
 
 A utility to create Redux reducers which only respond to prefixed actions.
 
+Part of the [reduxr](https://github.com/chrisdavies/reduxr) family of packages.
+
 [![Build Status](https://travis-ci.org/chrisdavies/reduxr-scoped-reducer.svg?branch=master)](https://travis-ci.org/chrisdavies/reduxr-scoped-reducer)
 
 ## Usage
